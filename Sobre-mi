@@ -1,0 +1,365 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Style-Type" content="text/css"><meta name="generator" content="Aspose.Words for .NET 23.10.0">
+    <title>Portafolio</title>
+
+    <style>
+      body {
+        font-family: Helverica, Verdana;
+        margin: 0;
+        padding: 0;
+        background-color: #FFF8ED;
+      }
+
+      header {
+        background-color: #FFDE59;
+        padding: 20px;
+        color: white;
+        text-align: center;
+      }
+
+      .boton1:hover {
+        background-color: #638035;
+        color: #BFDF8C;
+      }
+
+      .boton2:hover {
+        background-color: #AD592A;
+        color: #FF9256;
+      }
+
+      .boton3:hover {
+        background-color: #61537B;
+        color: #D1C1EF;
+      }
+
+      button{
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        margin: 5px;
+      }
+
+      .boton1{
+        background-color: #BFDF8C;
+        color: #638035;
+        border-radius: 10px;
+      }
+
+      .boton2{
+        background-color: #FF9256;
+        color: #FFF8ED;
+        border-radius: 10px;
+      }
+
+      .boton3{
+        background-color: #D1C1EF;
+        color: #61537B;
+        border-radius: 10px;
+      }
+
+      h1 {
+        color: #ffffff;
+        text-align: center;
+      }
+
+      h2 {
+        color: #ff6f61;
+        text-align: center;
+      }
+
+      /*Sobre mi*/
+      img{
+        width: 75px;
+        height: 75px;
+      }
+
+      a{
+        color: #61537B;
+        text-align: left;
+      }
+
+      p{
+        color: #FFF8ED;
+        text-align: left;
+      }
+
+      ul{
+        color: #FFF8ED;
+        text-align: left;
+      }
+
+      #nomarea{
+        padding: 5px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px;
+      }
+
+      #bio{
+        background-color: #D1C1EF;
+        width: 400px;
+        height: 300px;
+        margin: 5px;
+        border-radius: 10px;
+      }
+
+      #nombre{
+        text-align: left;
+        color: #61537B;
+        font-weight: bold;
+      }
+
+      #area{
+        text-align: left;
+      }
+
+      .texto{
+        text-align: justify;
+      }
+
+      /*acordión*/
+      .sub{
+        color: #FFDE59;
+        text-align: left;
+      }
+
+      .accordion {
+        width: 800px;
+        margin: 90px auto;
+        padding: 45px 45px;
+      }
+
+      .label{
+        background-color: #FF9256;
+        color: #FFF8ED;
+      }
+
+      .accordion .container {
+        position: relative;
+        margin: 10px 10px;
+      }
+
+      .accordion .label {
+        position: relative;
+        padding: 5px;
+        cursor: pointer;
+        width: 500px;
+        height: 50px;
+        margin: 5px;
+        border-radius: 10px;
+        display: flex;
+      }
+
+      .accordion .label::before {
+        content: '+';
+        position: absolute;
+        top: 50%;
+        width: 10%;
+        right: -5px;
+        font-size: 30px;
+        transform: translateY(-50%);
+      }
+
+      .accordion .content {
+        position: relative;
+        background-color: #FFDE59;
+        height: 0;
+        font-size: 20px;
+        text-align: justify;
+        width: 500px;
+        overflow: hidden;
+        transition: 0.5s;
+        border-radius: 10px;
+      }
+
+      .accordion .container.active .content {
+        height: 40%;
+        width: 500px;
+        background-color: #AD592A;
+        margin: 5px;
+        border-radius: 10px;
+        padding: 5px;
+      }
+
+      .accordion .container.active .label::before {
+        content: '-';
+        font-size: 30px;
+      }
+
+      footer {
+          background-color: #FFDE59;
+          text-align: center;
+          padding: 20px;
+          color: white;
+      }
+    </style>
+    <style type="text/css"></style>
+  </head>
+  <body>
+    <header>
+      <h1>FALF</h1>
+      <nav>
+        <button class="boton1">Inicio</button>
+        <button class="boton2">Sobre mi</button>
+        <button class="boton3">Proyectos</button>
+        <button class="boton1">Contactos</button>
+      </nav>
+    </header>
+    
+    <content class="sobre-mi">
+    	<h2>CV</h2>
+      <img src="imagen-wireframes.png" alt="Mi foto">
+      <div id="bio">
+        <a class="cuadro1">
+          <div id="nomarea">
+            <p id="nombre">Flor Ashley López Fong</p>
+            <p id="area">Área: Multimedia</p>
+          </div>
+          <a class="texto">
+            Hola, yo soy Flor Lopez, una estudiante de<br>
+            ingenieríaen sistemas computacionales, los<br>
+            objetivos académicos que tengo son graduarme<br>
+            teniendo un trabajo y poder mejorar las<br>
+            habilidades importantes para mi área y en las<br>
+            otras áreas, aunque no me vaya a dedicar a eso,<br>
+            ya que nunca está de más.
+        </a>
+        </a>
+      </div>
+      
+      <div class="accordion-body">
+        <div class="accordion">
+          <div class="container">
+            <div class="label">Educación</div>
+            <div class="content">
+              <a class="sub">Escuela de música UNAV
+              <p>Violín y flauta transversal<br>Agosto 2012-2018</p>
+              <br>
+              Colegio del pacífico
+              <p>Preparatoria: Físico-Matemático<br>Agosto 2018-Mayo 2021</p>
+              <br>
+              Univerdidad de Navojoa
+              <p>Ingeniería en sistemas computacionales<br>Agosto 2021-Actualmente</p>
+              <br>
+              Universidad del valle de México
+              <p>Diseño digital<br>Enero-Agosto 2023</p>
+            </a>
+          </div>
+        </div>
+        <div class="container">
+    <div class="label">Skills</div>
+      <div class="content">
+        <a>
+          <ul>
+            <li>Escritura de historias</li>
+            <li>Guión y storyboard</li>
+            <li>Dibujo técnico</li>
+            <li>Canto</li>
+            <li>Programación</li>
+            <li>Ilustración</li>
+            <li>Diseño de personajes</li>
+            <li>Modelado 3d</li>
+            <li>Animación 2d y 3d</li>
+            <li>Videojuegos 2d y 3d</li>
+            <li>Diseño UX/UI</li>
+            <li>Realidad virtual</li>
+            <li>Diseño</li>
+            <li>Arte</li>
+            <li>Composición</li>
+            <li>Marketing</li>
+            <li>Emprendimiento</li>
+            <li>Pensamiento sistémico</li>
+            <li>Teoría del color</li>
+            <li>Edición de video y audio</li>
+            <li>Desarrollo de proyectos animados</li>
+          </ul>
+        </a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="label">Habilidades técnicas</div>
+        <div class="content">
+          <a class="sub">
+            Software que uso:
+            <ul>
+              <li>AutoCAD</li>
+              <li>Premiere CC</li>
+              <li>Ibis paint x</li>
+              <li>Canva</li>
+              <li>Photoshop</li>
+              <li>Illustrator</li>
+              <li>Adobe animate</li>
+              <li>Maya</li>
+              <li>Visual studio</li>
+              <li>Blender</li>
+              <li>Unity 2d y 3d</li>
+            </ul>
+            <br>
+            Sistema operativo que uso:
+            <p>Windows</p>
+            <br>
+            Lenguajes de programación que uso:
+            <ul>
+              <li>Java</li>
+              <li>C#</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </a>
+        </div>
+      </div>
+      <div class="container">
+        <div class="label">Idiomas</div>
+          <div class="content">
+            <a class="sub">
+              Inglés
+              <p>Nivel B1</p>
+              <br>
+              Español
+              <p>Nativo</p>
+            </a>
+          </div>
+      </div>
+        <div class="container">
+          <div class="label">Evidencias diplomáticas</div>
+            <div class="content">
+              <a href="https://drive.google.com/drive/folders/1-Vs3ufozrNAr7NEGtt-j-fIAakcY7xL0?usp=sharing" class="sub">Certificados, constancias y diplomas</a>
+              <br>
+              <br>
+              <a href="https://drive.google.com/drive/folders/1TuQjTsetZoQSU4JcCGzr6Hqm5ZONGWRR?usp=drive_link" class="sub">Calificaciones</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </content>
+    
+    <footer>        
+      <a href="#" class="menu-item">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACJklEQVR4nO3ZT2vUQBjH8UWwnjwLtqIHq+BBemk9SK1/KgrWli48M3vsyXdRsm1PHtxkJu3BV/vIM9lYN8lSKdlc+v3AssvsDIT8mHlmktEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgaFrKZw3uXINMq+/6t1xodPskMlgQ/oUGN9PSH2iQPQ3uw99PlI+ay5aW7otGybUYbxLMKsPI3TuNcqr55E26+b9/3O/sV0xea+6faXSZRr9LKKuaGVFOtfTv9Zes39g/y+5pdG9TKJfynFD6DiS4WZoZjTD05+HDtHwV/pPVDptF12OONzTKjo0lkL4LeOkPbJlq/Tdv03LyuBlI/b+WcmiBEUpfgQS5SAW8o2bYEvZvMO2xXx+k2hPcOYH0F8jUdlGt9upGp/b5Luub5vKyPd52YTIlkL4CiS6rZ8JCe6NNg7zSYvKoqx+BDBHI5fipRjmp+sjJ0mXLAoku6/Oa7jRdsmQt1JCOwK7H23LmzlZ5jXeK/k9RXxKIZrI2P9FT1HsLJLp9De5719b1xkDsfGLb3iXLGW4diuTpYBiONxbagz+qAvNHrTFX/okWbtvGcuN7psV4sy7uzVA6+1sYaamSKY9OVkSj360eGMpOOoFnstZZM2yZSjPDnfFwcYiZEtws1ZTm4/fqALg3rxk5M2NAarPAXkrZjKlfUKXf9oKKAg4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEbD+wO74Vxb7A9j1AAAAABJRU5ErkJggg==">
+      </a>
+      <a href="#" class="menu-item">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACdElEQVR4nO3ZWWsUQRSG4VFBRUTRuCHeKIggxn0BF1DEBY2YBE/NaEAvBMUFRREXXCZIICgxM6c6RHIleiN4J/4Af9on1RNChMTEMJmE6feBZrrpquLQp6urOFMqAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALAYa61olt2tye6FotzXas2mhY2o7iuGm6pW9M7arVY4phjFFO5qfp6ORmEeK9lBuv5RVDrcm6jYmtw/yMKgsHJy2zYhtUbRaeuCq20l53xpl1pn6qN67Ux6u5Mmphz2tjb4Nya1fP2xZ/kA99E3dJrz61yyS21N5+Jlm0LwGWwSKYWDivF4+Kw+fVQ+XUpImtanKbfe0Y2TlLsVwvxXxtj013v7NE9fV6lJl4YLchvLPWQzP5fY1faamHSOGassCbneK4a6ifZf3bJvy/uiNdWmdmGEMEtLEhHyT2x15+eqcx3Drb1pARae0PmTdHXPu/+XWSkV729yoCkxZd4c8uD7Z+v/um7a/0S7Ly8fnJ7qCklcOyO13vnjPcrbIL64Y35UNp43A/EdZIIrlU/l2d+j6hln3SVvddHj5/PxGV1Bye5DXp2bxtiuGE3kJxcNga6IrKNXDEbm9a5RTbOOUbTycyUsoHrK0oLc+ygJRVtkqD+/ldk8qLfnrXrTtec2qMTPqGrO1CxdpG5PbM7m9zre/qXI7vqirass13LsjP6/ZfrkdUrSXivZkclkFzU5IZp3558fDR2V2TjXblVdw02+6Tv9/xDCgGN6kqi8JaBGN2Gpl5dN5KSVVfjN7rKxsimEfSQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKXF4A8Dq0WZmrHGYgAAAABJRU5ErkJggg==">
+      </a>
+      <a href="#" class="menu-item">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB6ElEQVR4nO3ZT08TQRyH8V7gLXgR8ebJRCBIAsF/gMTEUG34zTQaPXLx6MUbHuW0nRk48DZ8g18zs1WDlHbTTOvl+SSbkHbmsk9npx16PQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgGXQua0q2JaiO+x05bHntkqdRcSIbk/RfiraN0U/UHRfZwfxfUX3Q8HvEqX+yrhQsO+Kfl/Jv8jX1Dkjf1BWyJVfK3Ovz1aIUitIGG4o2UkJkm9wDhLe3586ZxysjZfnDjcIUitIaleEkn348/eVX5se0U7LCkn2uMuKwjxBgvuo5E3BPqlxz3Q5WFe0V4r2tFz5MTUhFEEqU46RN/Hk37bfsvy+gn1R9G9KmPx6DvP70Rbd5xIruJfjDT7PZYVUDZJu3lAF/1rBnmvktnOQ8lq7gW/l92bNR+0gKT/CfL9dNX+/1qqxRxPHEmQJQdLkTz1B/keQ6A7V2BM1/uHt8e541nzUDnI5WFcz3ClR8vvjH35lkx8N7xFkgXTHJ1wje6BkR2VzL2Pc8b8xps1H5SBdEaQyjX9fzD/f9zk6WcDhYm/uIBwuVqfgd8uNje5d5/+H5LHllJjj94XQ9dmKktvsHCSP5dgdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD0luQX5ZGgxpQyWrYAAAAASUVORK5CYII=">
+      </a>
+      <a href="https://www.linkedin.com/in/flor-ashley-l%C3%B3pez-fong-ba4482281/" class="menu-item">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB3UlEQVR4nO3YSWsUQRiH8TGigvsGkpsIiqBeBK8axS0STBx933Y7x4sHMeAlMS2IiFumq1qE+Qp+yb9UDSrmkHSku0Xy/KAgdLpgmCfVla7BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoC/6bjv17fGRRqMspyjTVYjw5KCCvVX0FQVb3HREf6Zgq5P7b+8hTOtB/L2qhydU2w3VxYyiX99wfLGjed6oOKlgywRpM8ZX26/oS6r9lsaLu7Ye01alwQ6itBbk/jkFe5BWxl/Nj/Zc9cIxgrQVpPLz64OoGp7WyC9vOrcsp3KQz4+OE6TLILGYVSjmVdruDefG4VmC9BGk9ouqC0t/+ZON3i4o2BVVfumPufkfAFZID0GKmXw9xRjNH1ZdzKkuzuSfo137dR8r5B8FCcXNvPmnlbL+PlZIz0HGdujn7/J1gnRLBPkfglh6Y7f8mKr8TtrQ8/VgrugLv+/jkdVLkKYI0gGlPSL4i/zusYUT3HSoODnbstec/LYdJfjHdGCYozQ5XAx+NZ99rd2bVrA3bX+ebU/pBTBFCfYy7x1NRvRXCv5On57u2/ZfYFf04e4BrQ1PNRrjub2EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg778AGaov0RxTf8HAAAAAElFTkSuQmCC">
+      </a>
+    </footer>
+
+    <script>
+      const accordion = document.getElementsByClassName('container');
+      for (i=0; i<accordion.length; i++) {
+        accordion[i].addEventListener('click', function () {
+          this.classList.toggle('active')
+        })
+      }
+    </script>
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>
