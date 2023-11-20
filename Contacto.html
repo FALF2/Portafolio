@@ -1,0 +1,161 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      body {
+  font-family: Helverica, Verdana;
+  margin: 0;
+  padding: 0;
+  /* background-color: #333; */
+  background-color: #FFF8ED;
+}
+
+header {
+    background-color: #FFDE59;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.boton1:hover {
+    background-color: #638035;
+    color: #BFDF8C;
+}
+
+.boton2:hover {
+    background-color: #AD592A;
+    color: #FF9256;
+}
+
+.boton3:hover {
+    background-color: #61537B;
+    color: #D1C1EF;
+}
+
+button{
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.boton1{
+  background-color: #BFDF8C;
+  color: #638035;
+  border-radius: 10px;
+}
+
+.boton2{
+  background-color: #FF9256;
+  color: #FFF8ED;
+  border-radius: 10px;
+}
+
+.boton3{
+  background-color: #D1C1EF;
+  color: #61537B;
+  border-radius: 10px;
+}
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+}
+
+h2 {
+  color: #ff6f61;
+  text-align: center;
+}
+
+a{
+  color: #61537B;
+  text-align: left;
+  text-decoration: none;
+}
+
+p{
+  color: #FFF8ED;
+  text-align: left;
+}
+
+.contact-page{
+  width: 550px;
+  height: 40%;
+  margin: 20px;
+  border-radius: 10px;
+  text-align: left;
+  padding: 5px;
+}
+
+.contact-info{
+  background-color: #D1C1EF;
+  width: 550px;
+  height: 40%;
+  margin: 5px;
+  border-radius: 10px;
+  text-align: left;
+  padding: 5px;
+}
+
+textarea, input{
+  width: 500px;
+  background-color: #BFDF8C;
+  border-radius: 10px;
+  border-color: #638035;
+  border-style: solid;
+}
+
+input{
+  height: 25px;
+}
+
+footer {
+    background-color: #FFDE59;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FALF</h1>
+        <nav>
+          <button class="boton1"><a href="índice.html" class="boton1">Inicio</a></button>
+          <button class="boton2"><a href="Sobre-mi.html" class="boton2">Sobre mi</a></button>
+          <button class="boton3"><a href="Proyecto.html" class="boton3">Proyectos</a></button>
+          <button class="boton1"><a href="Contacto.html" class="boton1">Contacto</a></button>
+        </nav>
+    </header>
+    <main class="contact-page">
+        <h2>Envíame un mensaje</h2>
+        <div class="formulario">
+            <form action="#" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Mensaje:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+
+                <button type="submit" class="boton2"><a href="mensaje.html" class="boton2">Enviar Mensaje</a></button>
+            </form>
+        </div>
+        <h2>Información de contacto</h2>
+        <div class="contact-info">
+            <a><strong>Dirección:</strong> Universidad de Navojoa</a><br><br>
+            <a><strong>Teléfono:</strong> No tengo por el momento</a><br><br>
+            <a><strong>Correo Electrónico:</strong> 1080014@unav.edu.mx</a>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 FALF</p>
+    </footer>
+</body>
+</html>
