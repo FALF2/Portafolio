@@ -2,199 +2,232 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="Content-Style-Type" content="text/css"><meta name="generator" content="Aspose.Words for .NET 23.10.0">
-    <title>Portafolio</title>
+    <title>Sobre-mi</title>
 
     <style>
       body {
-        font-family: Helverica, Verdana;
-        margin: 0;
-        padding: 0;
-        background-color: #FFF8ED;
-      }
+  font-family: Helverica, Verdana;
+  margin: 0;
+  padding: 0;
+  /* background-color: #333; */
+  background-color: #FFF8ED;
+}
 
-      header {
-        background-color: #FFDE59;
-        padding: 20px;
-        color: white;
-        text-align: center;
-      }
+header {
+    background-color: #FFDE59;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
 
-      .boton1:hover {
-        background-color: #638035;
-        color: #BFDF8C;
-      }
+.boton1:hover {
+    background-color: #638035;
+    color: #BFDF8C;
+}
 
-      .boton2:hover {
-        background-color: #AD592A;
-        color: #FF9256;
-      }
+.boton2:hover {
+    background-color: #AD592A;
+    color: #FF9256;
+}
 
-      .boton3:hover {
-        background-color: #61537B;
-        color: #D1C1EF;
-      }
+.boton3:hover {
+    background-color: #61537B;
+    color: #D1C1EF;
+}
 
-      button{
-        padding: 10px 20px;
-        border: none;
-        cursor: pointer;
-        margin: 5px;
-      }
+button{
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+}
 
-      .boton1{
-        background-color: #BFDF8C;
-        color: #638035;
-        border-radius: 10px;
-      }
+.boton1{
+  background-color: #BFDF8C;
+  color: #638035;
+  border-radius: 10px;
+}
 
-      .boton2{
-        background-color: #FF9256;
-        color: #FFF8ED;
-        border-radius: 10px;
-      }
+.boton2{
+  background-color: #FF9256;
+  color: #FFF8ED;
+  border-radius: 10px;
+}
 
-      .boton3{
-        background-color: #D1C1EF;
-        color: #61537B;
-        border-radius: 10px;
-      }
+.boton3{
+  background-color: #D1C1EF;
+  color: #61537B;
+  border-radius: 10px;
+}
 
-      h1 {
-        color: #ffffff;
-        text-align: center;
-      }
+h1 {
+  color: #ffffff;
+  text-align: center;
+}
 
-      h2 {
-        color: #ff6f61;
-        text-align: center;
-      }
+h2 {
+  color: #ff6f61;
+  text-align: center;
+}
 
-      /*Sobre mi*/
-      img{
-        width: 75px;
-        height: 75px;
-      }
+/*Sobre mi*/
+img{
+  width: 75px;
+  height: 75px;
+}
 
-      a{
-        color: #61537B;
-        text-align: left;
-      }
+a{
+  color: #61537B;
+  text-align: left;
+  text-decoration: none;
+}
 
-      p{
-        color: #FFF8ED;
-        text-align: left;
-      }
+p{
+  color: #FFF8ED;
+  text-align: left;
+}
 
-      ul{
-        color: #FFF8ED;
-        text-align: left;
-      }
+ul{
+  color: #FFF8ED;
+  text-align: left;
+}
 
-      #nomarea{
-        padding: 5px;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        margin: 10px;
-      }
+#nomarea{
+  /*width: 40%;
+  height: 40%;*/
+  padding: 5px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
 
-      #bio{
-        background-color: #D1C1EF;
-        width: 400px;
-        height: 300px;
-        margin: 5px;
-        border-radius: 10px;
-      }
+#bio{
+  background-color: #D1C1EF;
+  width: 400px;
+  height: 300px;
+  margin: 5px;
+  border-radius: 10px;
+}
 
-      #nombre{
-        text-align: left;
-        color: #61537B;
-        font-weight: bold;
-      }
+#nombre{
+  text-align: left;
+  color: #61537B;
+  font-weight: bold;
+}
 
-      #area{
-        text-align: left;
-      }
+#area{
+  text-align: left;
+}
 
-      .texto{
-        text-align: justify;
-      }
+.texto{
+  text-align: justify;
+}
 
-      /*acordión*/
-      .sub{
-        color: #FFDE59;
-        text-align: left;
-      }
+/*acordión*/
+.sub{
+  color: #FFDE59;
+  text-align: left;
+}
 
-      .accordion {
-        width: 800px;
-        margin: 90px auto;
-        padding: 45px 45px;
-      }
+.accordion {
+  width: 800px;
+  margin: 90px auto;
+  padding: 45px 45px;
+}
 
-      .label{
-        background-color: #FF9256;
-        color: #FFF8ED;
-      }
+.label{
+  background-color: #FF9256;
+  color: #FFF8ED;
+}
 
-      .accordion .container {
-        position: relative;
-        margin: 10px 10px;
-      }
+.accordion .container {
+  position: relative;
+  margin: 10px 10px;
+}
 
-      .accordion .label {
-        position: relative;
-        padding: 5px;
-        cursor: pointer;
-        width: 500px;
-        height: 50px;
-        margin: 5px;
-        border-radius: 10px;
-        display: flex;
-      }
+.accordion .label {
+  position: relative;
+  padding: 5px;
+  cursor: pointer;
+  width: 500px;
+  height: 50px;
+  margin: 5px;
+  border-radius: 10px;
+  display: flex;
+  
+}
 
-      .accordion .label::before {
-        content: '+';
-        position: absolute;
-        top: 50%;
-        width: 10%;
-        right: -5px;
-        font-size: 30px;
-        transform: translateY(-50%);
-      }
+.accordion .label::before {
+  content: '+';
+  position: absolute;
+  top: 50%;
+  width: 10%;
+  right: -5px;
+  font-size: 30px;
+  transform: translateY(-50%);
+}
 
-      .accordion .content {
-        position: relative;
-        background-color: #FFDE59;
-        height: 0;
-        font-size: 20px;
-        text-align: justify;
-        width: 500px;
-        overflow: hidden;
-        transition: 0.5s;
-        border-radius: 10px;
-      }
+.accordion .content {
+  position: relative;
+  background-color: #FFDE59;
+  height: 0;
+  font-size: 20px;
+  text-align: justify;
+  width: 500px;
+  overflow: hidden;
+  transition: 0.5s;
+  border-radius: 10px;
 
-      .accordion .container.active .content {
-        height: 40%;
-        width: 500px;
-        background-color: #AD592A;
-        margin: 5px;
-        border-radius: 10px;
-        padding: 5px;
-      }
+}
 
-      .accordion .container.active .label::before {
-        content: '-';
-        font-size: 30px;
-      }
+.accordion .container.active .content {
+  height: 40%;
+  width: 500px;
+  background-color: #AD592A;
+  margin: 5px;
+  border-radius: 10px;
+  padding: 5px;
+}
 
-      footer {
-          background-color: #FFDE59;
-          text-align: center;
-          padding: 20px;
-          color: white;
-      }
+.accordion .container.active .label::before {
+  content: '-';
+  font-size: 30px;
+}
+
+/*cosmovision*/
+.proyecAcademica{
+  background-color: #BFDF8C;
+  color: #638035;
+  width: 400px;
+  height: 40%;
+  margin: 5px;
+  border-radius: 10px;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filosofiaPersonal{
+  background-color: #D1C1EF;
+  color: #61537B;
+  width: 400px;
+  height: 40%;
+  margin: 5px;
+  border-radius: 10px;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+    background-color: #FFDE59;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
     </style>
     <style type="text/css"></style>
   </head>
@@ -202,10 +235,10 @@
     <header>
       <h1>FALF</h1>
       <nav>
-        <button class="boton1">Inicio</button>
-        <button class="boton2">Sobre mi</button>
-        <button class="boton3">Proyectos</button>
-        <button class="boton1">Contactos</button>
+        <button class="boton1"><a href="índice.html" class="boton1">Inicio</a></button>
+        <button class="boton2"><a href="Sobre-mi.html" class="boton2">Sobre mi</a></button>
+        <button class="boton3"><a href="Proyecto.html" class="boton3">Proyectos</a></button>
+        <button class="boton1"><a href="Contacto.html" class="boton1">Contacto</a></button>
       </nav>
     </header>
     
@@ -337,19 +370,43 @@
       </div>
     </content>
     
-    <footer>        
-      <a href="#" class="menu-item">
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACJklEQVR4nO3ZT2vUQBjH8UWwnjwLtqIHq+BBemk9SK1/KgrWli48M3vsyXdRsm1PHtxkJu3BV/vIM9lYN8lSKdlc+v3AssvsDIT8mHlmktEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgaFrKZw3uXINMq+/6t1xodPskMlgQ/oUGN9PSH2iQPQ3uw99PlI+ay5aW7otGybUYbxLMKsPI3TuNcqr55E26+b9/3O/sV0xea+6faXSZRr9LKKuaGVFOtfTv9Zes39g/y+5pdG9TKJfynFD6DiS4WZoZjTD05+HDtHwV/pPVDptF12OONzTKjo0lkL4LeOkPbJlq/Tdv03LyuBlI/b+WcmiBEUpfgQS5SAW8o2bYEvZvMO2xXx+k2hPcOYH0F8jUdlGt9upGp/b5Luub5vKyPd52YTIlkL4CiS6rZ8JCe6NNg7zSYvKoqx+BDBHI5fipRjmp+sjJ0mXLAoku6/Oa7jRdsmQt1JCOwK7H23LmzlZ5jXeK/k9RXxKIZrI2P9FT1HsLJLp9De5719b1xkDsfGLb3iXLGW4diuTpYBiONxbagz+qAvNHrTFX/okWbtvGcuN7psV4sy7uzVA6+1sYaamSKY9OVkSj360eGMpOOoFnstZZM2yZSjPDnfFwcYiZEtws1ZTm4/fqALg3rxk5M2NAarPAXkrZjKlfUKXf9oKKAg4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEbD+wO74Vxb7A9j1AAAAABJRU5ErkJggg==">
-      </a>
-      <a href="#" class="menu-item">
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACdElEQVR4nO3ZWWsUQRSG4VFBRUTRuCHeKIggxn0BF1DEBY2YBE/NaEAvBMUFRREXXCZIICgxM6c6RHIleiN4J/4Af9on1RNChMTEMJmE6feBZrrpquLQp6urOFMqAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALAYa61olt2tye6FotzXas2mhY2o7iuGm6pW9M7arVY4phjFFO5qfp6ORmEeK9lBuv5RVDrcm6jYmtw/yMKgsHJy2zYhtUbRaeuCq20l53xpl1pn6qN67Ux6u5Mmphz2tjb4Nya1fP2xZ/kA99E3dJrz61yyS21N5+Jlm0LwGWwSKYWDivF4+Kw+fVQ+XUpImtanKbfe0Y2TlLsVwvxXxtj013v7NE9fV6lJl4YLchvLPWQzP5fY1faamHSOGassCbneK4a6ifZf3bJvy/uiNdWmdmGEMEtLEhHyT2x15+eqcx3Drb1pARae0PmTdHXPu/+XWSkV729yoCkxZd4c8uD7Z+v/um7a/0S7Ly8fnJ7qCklcOyO13vnjPcrbIL64Y35UNp43A/EdZIIrlU/l2d+j6hln3SVvddHj5/PxGV1Bye5DXp2bxtiuGE3kJxcNga6IrKNXDEbm9a5RTbOOUbTycyUsoHrK0oLc+ygJRVtkqD+/ldk8qLfnrXrTtec2qMTPqGrO1CxdpG5PbM7m9zre/qXI7vqirass13LsjP6/ZfrkdUrSXivZkclkFzU5IZp3558fDR2V2TjXblVdw02+6Tv9/xDCgGN6kqi8JaBGN2Gpl5dN5KSVVfjN7rKxsimEfSQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKXF4A8Dq0WZmrHGYgAAAABJRU5ErkJggg==">
-      </a>
-      <a href="#" class="menu-item">
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB6ElEQVR4nO3ZT08TQRyH8V7gLXgR8ebJRCBIAsF/gMTEUG34zTQaPXLx6MUbHuW0nRk48DZ8g18zs1WDlHbTTOvl+SSbkHbmsk9npx16PQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgGXQua0q2JaiO+x05bHntkqdRcSIbk/RfiraN0U/UHRfZwfxfUX3Q8HvEqX+yrhQsO+Kfl/Jv8jX1Dkjf1BWyJVfK3Ovz1aIUitIGG4o2UkJkm9wDhLe3586ZxysjZfnDjcIUitIaleEkn348/eVX5se0U7LCkn2uMuKwjxBgvuo5E3BPqlxz3Q5WFe0V4r2tFz5MTUhFEEqU46RN/Hk37bfsvy+gn1R9G9KmPx6DvP70Rbd5xIruJfjDT7PZYVUDZJu3lAF/1rBnmvktnOQ8lq7gW/l92bNR+0gKT/CfL9dNX+/1qqxRxPHEmQJQdLkTz1B/keQ6A7V2BM1/uHt8e541nzUDnI5WFcz3ClR8vvjH35lkx8N7xFkgXTHJ1wje6BkR2VzL2Pc8b8xps1H5SBdEaQyjX9fzD/f9zk6WcDhYm/uIBwuVqfgd8uNje5d5/+H5LHllJjj94XQ9dmKktvsHCSP5dgdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD0luQX5ZGgxpQyWrYAAAAASUVORK5CYII=">
-      </a>
-      <a href="https://www.linkedin.com/in/flor-ashley-l%C3%B3pez-fong-ba4482281/" class="menu-item">
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB3UlEQVR4nO3YSWsUQRiH8TGigvsGkpsIiqBeBK8axS0STBx933Y7x4sHMeAlMS2IiFumq1qE+Qp+yb9UDSrmkHSku0Xy/KAgdLpgmCfVla7BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoC/6bjv17fGRRqMspyjTVYjw5KCCvVX0FQVb3HREf6Zgq5P7b+8hTOtB/L2qhydU2w3VxYyiX99wfLGjed6oOKlgywRpM8ZX26/oS6r9lsaLu7Ye01alwQ6itBbk/jkFe5BWxl/Nj/Zc9cIxgrQVpPLz64OoGp7WyC9vOrcsp3KQz4+OE6TLILGYVSjmVdruDefG4VmC9BGk9ouqC0t/+ZON3i4o2BVVfumPufkfAFZID0GKmXw9xRjNH1ZdzKkuzuSfo137dR8r5B8FCcXNvPmnlbL+PlZIz0HGdujn7/J1gnRLBPkfglh6Y7f8mKr8TtrQ8/VgrugLv+/jkdVLkKYI0gGlPSL4i/zusYUT3HSoODnbstec/LYdJfjHdGCYozQ5XAx+NZ99rd2bVrA3bX+ebU/pBTBFCfYy7x1NRvRXCv5On57u2/ZfYFf04e4BrQ1PNRrjub2EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg778AGaov0RxTf8HAAAAAElFTkSuQmCC">
-      </a>
+    <div class="cosmovision">
+        <div class="proyecAcademica">
+          <a>Proyeccion academica</a>
+          <p class="metas">Metas:</p>
+            <ul>
+              <li>No reprobar</li>
+              <li>Terminar el area de multimedia</li>
+              <li>Tener aunque sea uno de mis proyectos personales terminado</li>
+              <li>Graduar el 2026</li>
+              <li>Tener un trabajo relacionado a mi área</li>
+              <li>Expandir mi red profesional</li>
+            </ul>
+          <p class="objetivos">Objetivos en ISC:</p>
+            <ul>
+              <li>Obtener habilidades que me ayuden en el futuro a cumplir mis proyectos personales</li>
+              <li>Gestionar mejor mis tiempos</li>
+              <li>Conocer a nuevas personas</li>
+            </ul>
+        </div>
+        
+        <div class="filosofiaPersonal">
+          <a>Filosofia personal</a>
+          <p class="valores">Mis valores relacionados con ISC:</p>
+          <ul>
+              <li>Honestidad: <br>Ser honesto implica ser transparente y ético en el manejo de la información y los datos. Este valor es aplicable al desarrollar software o al comunicarse con los compañeros y clientes.</li>
+              <li>Responsabilidad: <br>Implica cumplir con los plazos, entregar trabajos de calidad y asumir las consecuencias de tus acciones.</li>
+              <li>Tolerancia: <br>Ser tolerante permite aceptar diferentes puntos de vista y trabajar en equipo, lo que es esencial en ingeniería de sistemas computacionales, donde colaborar con otros profesionales es común.</li>
+              <li>Empatía: <br>Permite entender las necesidades y preocupaciones de los usuarios finales o clientes. Esto ayuda a diseñar soluciones tecnológicas que se ajusten a los requerimientos y brinden una experiencia satisfactoria.</li>
+              <li>Paciencia: <br>A menudo se enfrentan desafíos complejos que requieren tiempo y esfuerzo para resolver. Ser paciente ayuda a perseverar y encontrar soluciones efectivas.</li>
+              <li>Creatividad: <br>Permite encontrar soluciones innovadoras a problemas técnicos. Se puede aplicar la creatividad al diseñar interfaces intuitivas, desarrollar algoritmos eficientes o crear nuevas aplicaciones.</li>
+            </ul>
+        </div>
+      </div>
+    </content>
+    
+    <footer>
+        <p>&copy; 2023 FALF</p>
     </footer>
 
     <script>
