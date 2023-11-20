@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      body {
+  font-family: Helverica, Verdana;
+  margin: 0;
+  padding: 0;
+  background-color: #FFF8ED;
+}
+
+header {
+    background-color: #FFDE59;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.boton1:hover {
+    background-color: #638035;
+    color: #BFDF8C;
+}
+
+.boton2:hover {
+    background-color: #AD592A;
+    color: #FF9256;
+}
+
+.boton3:hover {
+    background-color: #61537B;
+    color: #D1C1EF;
+}
+
+button{
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.boton1{
+  background-color: #BFDF8C;
+  color: #638035;
+  border-radius: 10px;
+}
+
+.boton2{
+  background-color: #FF9256;
+  color: #FFF8ED;
+  border-radius: 10px;
+}
+
+.boton3{
+  background-color: #D1C1EF;
+  color: #61537B;
+  border-radius: 10px;
+}
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+}
+
+h2 {
+  color: #ff6f61;
+  text-align: center;
+}
+
+a{
+  color: #61537B;
+  text-align: left;
+  text-decoration: none;
+}
+
+p{
+  color: #FFF8ED;
+  text-align: left;
+}
+
+/*bio*/
+#nomarea{
+  /*width: 40%;
+  height: 40%;*/
+  padding: 5px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+#bio{
+  background-color: #BFDF8C;
+  width: 99%;
+  height: 225px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+#nombre{
+  text-align: left;
+  color: #61537B;
+  font-weight: bold;
+}
+
+#area{
+  text-align: left;
+}
+
+.texto{
+  text-align: justify;
+}
+
+/*proyecto destacado*/
+a.sub {
+    color: #FFDE59;
+    text-align: left;
+}
+
+.sub:hover {
+    text-decoration: underline;
+}
+
+.blog-post {
+    background-color: #FF9256;
+    display: flex;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    max-width: 800px;
+}
+
+.post-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.blog-post img {
+    max-width: 150px;
+    border-radius: 10px;
+}
+
+/*contacto*/
+.contacto{
+  background-color: #D1C1EF;
+  width: 550px;
+  height: 40%;
+  margin: 5px;
+  border-radius: 10px;
+  text-align: left;
+  padding: 5px;
+}
+
+textarea, input{
+  width: 500px;
+  background-color: #BFDF8C;
+  border-radius: 10px;
+  border-color: #638035;
+  border-style: solid;
+}
+
+input{
+  height: 25px;
+}
+
+footer {
+    background-color: #FFDE59;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+    </style>
+</head>
+<header>
+        <h1>FALF</h1>
+        <nav>
+          <button class="boton1"><a href="index.html" class="boton1">Inicio</a></button>
+          <button class="boton2"><a href="Sobre-mi.html" class="boton2">Sobre mi</a></button>
+          <button class="boton3"><a href="Proyecto.html" class="boton3">Proyectos</a></button>
+          <button class="boton1"><a href="Contacto.html" class="boton1">Contacto</a></button>
+        </nav>
+
+    </header>
+    <h2>Biografía</h2>
+    <div id="bio">
+      <a class="cuadro1">
+        <div id="nomarea">
+          <p id="nombre">Flor Ashley López Fong</p>
+          <p id="area">Área: Multimedia</p>
+        </div>
+        <a class="texto">
+          Hola, yo soy Flor Lopez, una estudiante de ingenieríaen sistemas computacionales, los objetivos académicos que tengo son graduarme teniendo un trabajo y poder mejorar las habilidades importantes para mi área y en las otras áreas, aunque no me vaya a dedicar a eso, ya que nunca está de más.
+        </a>
+      </a>
+    </div>
+    
+    <h2>Proyecto destacado</h2>
+    <article class="blog-post">
+            <img src="destacado.jpg" alt="Proyecto-destacado">
+            <div class="post-content">
+                <h2>Proyecto destacado: Tabernáculo de realidad virtual</h2>
+                <p class="date">Parte1: publicada el 30 de noviembre de 2023</p>
+                <p class="date">Publicado completamente más tardar a inicios de diciembre de 2023</p>
+                <p>
+                    Este proyecto trata de realizar una aplicación de realidad aumentada donde se pueda realizar un recorrido por el tabernáculo de Moisés, podiendo ver las cosas que tuvo en su momento mientras los israelitas andaban por el desierto, se busca que sea una aplicación accesible para todos e históricamente correcta.<a href="destacado.html" class="sub">Leer más</a>
+                </p>
+                
+                <p>Consulta la carpeta del proyecto en este enlace: <a href="https://drive.google.com/drive/folders/1XGD8x7dU3ZdE-h7kehIwNj4JkOEKk1D-?usp=sharing" target="_blank">Realidad virtual</a></p>
+            </div>
+        </article>
+    
+    <h2>Contacto</h2>
+    <main class="contacto">
+        <div>
+            <a><strong>Dirección:</strong> Universidad de Navojoa</a><br><br>
+            <a><strong>Teléfono:</strong> (+52)642 *** ****</a><br><br>
+            <a><strong>Correo Electrónico:</strong> 1080014@unav.edu.mx</a>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 FALF</p>
+    </footer>
+</body>
+</html>
