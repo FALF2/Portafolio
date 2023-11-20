@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      body {
+  font-family: Helverica, Verdana;
+  margin: 0;
+  padding: 0;
+  /* background-color: #333; */
+  background-color: #FFF8ED;
+}
+
+header {
+    background-color: #FFDE59;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.boton1:hover {
+    background-color: #638035;
+    color: #BFDF8C;
+}
+
+.boton2:hover {
+    background-color: #AD592A;
+    color: #FF9256;
+}
+
+.boton3:hover {
+    background-color: #61537B;
+    color: #D1C1EF;
+}
+
+button{
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.boton1{
+  background-color: #BFDF8C;
+  color: #638035;
+  border-radius: 10px;
+}
+
+.boton2{
+  background-color: #FF9256;
+  color: #FFF8ED;
+  border-radius: 10px;
+}
+
+.boton3{
+  background-color: #D1C1EF;
+  color: #61537B;
+  border-radius: 10px;
+}
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+}
+
+h2 {
+  color: #ff6f61;
+  text-align: center;
+  text-decoration: none;
+}
+
+a{
+  color: #61537B;
+  text-align: left;
+  text-decoration: none;
+}
+
+p{
+  color: #FFF8ED;
+  text-align: left;
+}
+
+ul{
+  color: #FFF8ED;
+  text-align: left;
+}
+
+/* Acordeón */
+.sub {
+    color: #FFDE59;
+    text-align: left;
+}
+
+.accordion {
+    width: 800px;
+}
+
+.label {
+    background-color: #BFDF8C;
+    color: #FFF8ED;
+}
+
+.accordion .container {
+    position: relative;
+    margin: 10px 10px;
+}
+
+.accordion .label {
+    position: relative;
+    padding: 5px;
+    cursor: pointer;
+    width: 500px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.accordion .label::before {
+    content: '+';
+    position: absolute;
+    top: 50%;
+    width: 10%;
+    right: -5px;
+    font-size: 30px;
+    transform: translateY(-50%);
+}
+
+.accordion .content {
+    position: relative;
+    background-color: #BFDF8C;
+    height: 0;
+    font-size: 20px;
+    text-align: justify;
+    width: 500px;
+    overflow: hidden;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.accordion .container.active .content {
+    height: 40%;
+    width: 500px;
+    background-color: #638035;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.accordion .container.active .label::before {
+    content: '-';
+    font-size: 30px;
+}
+
+/*Proyectos*/
+a.sub {
+    color: #FFDE59;
+    text-align: left;
+}
+
+.sub:hover {
+    text-decoration: underline;
+}
+
+.blog-post {
+    display: flex;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    max-width: 800px;
+}
+
+.post-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.blog-post img {
+    max-width: 150px;
+    border-radius: 10px;
+}
+
+/* Estilos para los colores de fondo de las secciones de proyectos */
+.blog-post:nth-child(odd) {
+    background-color: #D1C1EF;
+}
+
+.blog-post:nth-child(even) {
+    background-color: #FF9256;
+}
+
+footer {
+    background-color: #FFDE59;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FALF</h1>
+        <nav>
+          <button class="boton1"><a href="index.html" class="boton1">Inicio</a></button>
+          <button class="boton2"><a href="aboutme.html" class="boton2">Sobre mi</a></button>
+          <button class="boton3"><a href="project.html" class="boton3">Proyectos</a></button>
+          <button class="boton1"><a href="contact.html" class="boton1">Contacto</a></button>
+        </nav>
+    </header>
+    
+    <h2>Materias</h2>
+    <div class="accordion-body">
+        <div class="accordion">
+          <div class="container">
+            <div class="label">Identidad UNAV</div>
+            <div class="content">
+              <ul>
+                <li>Fundamentos axiologicos: En esta materia aprendimos sobre valores</li>
+                <li>Comunicacion: Aprendimos sobre los tipos de comunicacion</li>
+                <li>Administracion para la vida: Esta materia fue como un tutorial de que hacer en la vida y que no hacer
+</li>
+                <li>Taller de comunicacion oral escrita: Aprendimos a comunicarnos de forma escrita y oral</li>
+                <li>Relaciones interpersonales: En esta materia se aprende sobre como mejorar nuestras relaciones con los demas, como con nuestras amistades y familia, tambien se aprende sobre el noviazgo</li>
+                <li>Introduccion a la investigacion: En esta materia se aprende a investigar para los que quieran trabajar en esta area y para la tesis o proyecto final</li>
+                <li>Ingles I, II y III: Las clases de ingles estan para que termines siendo bilingue o tengas un ingles conversacional</li>
+              </ul>
+            </div>
+          </div>
+          <div class="container">
+          <div class="label">Formación especializada</div>
+          <div class="content">
+            <ul>
+                <li>Matematicas universitarias: En esta materia se ven varios temas que seguramente has visto antes, pero se llevan a un nivel universitario</li>
+                <li>Logica computacional: Esto ayuda para cuando estas aprendiendo a programar</li>
+                <li>Introduccion a la ingenieria:  brinda a los futuros ingenieros una visión general de lo que implica la ingeniería como disciplina, así como de las diferentes ramas de la ingeniería y sus aplicaciones</li>
+                <li>Programacion: En esta materia aprendi a programar en Java</li>
+                <li>Herramientas de produccion digital: En esta materia se aprende de diferentes softwares como Photoshop, Illustrator, After effects, Premiere pro, etc.</li>
+                <li>Calculo diferencial: Aqui se puede aprender  sobre calculo, es como si fuera matematicas 2</li>
+                <li>Analisis y diseno de sistemas computacionales: En esta materia se aprende sobre los diagramas UML, ciclo de vida del software, entre otros</li>
+                <li>Estructura de datos: En esta materia se siguio aprendiendo Java y tambien se aprende a usar mySQL. Es como programacion 2</li>
+                <li>Sistemas operativos: Aqui aprendes sobre los sistemas operativos, instalarlos, formatear una compu, desarmarla, etc.</li>
+                <li>Dibujo e ilustracion digital: En esta materia aprendes a dibujar, disenar personajes y vectorizar en illustrator</li>
+                <li>Ecuaciones diferenciales: se aprende sobre los diferentes tipos de ecuaciones diferenciales lineales</li>
+                <li>Diseno y administracion de bases de datos: Aqui se aprende a disenar y administrar bases de datos usando SQL</li>
+                <li>Programacion web: En esta materia aprendes como hacer una pagina web usando HTML, CSS y JS</li>
+                <li>Arquitectura de redes: En esta materia se aprende a diseñar, implementar y mantener redes de computadoras, configuración de dispositivos de red, la gestión de la seguridad de la red y la solución de problemas</li>
+                <li>Fundamentos de animacion: Aqui se aprende sobre animacion 2d aplicando losfundamento de animacion</li>
+                <li>Modelado 3D: En esta materia se aprende a modelar props y personajes 3d yendo desde lo mas sencillo a lo mas complicado, para esto se usa Maya</li>
+                <li>Desarrollo de software para el entretenimiento: En esta materia se aprende a desarrollar videojuegos 3d y 2d usando unity</li>
+                <li>Realidad virtual: En esta materia aprendes sobre VR, MR, AR y el metaverso usando diferentes herramientas, como Unity y Vuforia</li>
+              </ul>
+          </div>
+        </div>
+        <div class="container">
+          <div class="label">Experiencias de aprendizaje</div>
+          <div class="content">
+            <ul>
+              <li>Cultura: En esta materia se aprende sobre cultura y arte</li>
+              <li>Coro: Aqui aprendes a cantar</li>
+              <li>Estilo de vida saludable: En esta materia te ensenan a tener una vida saludable y valanceada</li>
+              <li>Portafolio de aprendizaje: En esta materia aprendes a hacer tu portafolio, lo cual es util al momento de buscar trabajo, porque con este los empleadores pueden ver tu experiencia viendo tus proyectos y tambien pueden ver si buscan algo parecido a lo que haces o no</li>
+            </ul>
+          </div>
+        </div>
+        </div>
+      </div>
+    
+    <main class="blog-container">
+        <article class="blog-post">
+            <img src="destacado.jpg" alt="Proyecto-destacado">
+            <div class="post-content">
+                <h2>Proyecto destacado: Tabernáculo de realidad virtual</h2>
+                <p class="date">Parte1: publicada el 30 de noviembre de 2023</p>
+                <p class="date">Publicado completamente más tardar a inicios de diciembre de 2023</p>
+                <p>
+                    Este proyecto trata de realizar una aplicación de realidad aumentada donde se pueda realizar un recorrido por el tabernáculo de Moisés, podiendo ver las cosas que tuvo en su momento mientras los israelitas andaban por el desierto, se busca que sea una aplicación accesible para todos e históricamente correcta.<a href="destacado.html" class="sub">Leer más</a>
+                </p>
+                
+                <p>Consulta la carpeta del proyecto en este enlace: <a href="https://drive.google.com/drive/folders/1XGD8x7dU3ZdE-h7kehIwNj4JkOEKk1D-?usp=sharing">Realidad virtual</a></p>
+            </div>
+        </article>
+        
+        <article class="blog-post">
+          <div class="post-content">
+            <h2 href="proyecto1.html" class="sub">Speedpaint</h2>
+            <p class="materia">DSS: Cultura</p>
+            <p class="date">Publicado el 22 de noviembre de 2021</p>
+            <p>Consulta el video en este enlace: <a href="https://drive.google.com/file/d/16x-JYLEWb7vkAi7hk1cRL68XvqnF3L-6/view?usp=sharing">Speedpaint</a></p>
+          </div>
+        </article>
+
+        
+        <article class="blog-post">
+          <div class="post-content">
+            <h2 href="proyecto2.html" class="sub">Presentación de arte digital</h2>
+            <p class="materia">DSS: Cultura</p>
+            <p class="date">Publicado el 21 de octubre de 2021</p>
+            <p>Consulta la presentación en este enlace: <a href="https://drive.google.com/file/d/1QWluiXC3P6PeUtlfKmGOAAvLawgU0Gnf/view?usp=sharing">Arte Digital</a></p>
+          </div>
+        </article>
+
+        
+        <article class="blog-post">
+            <div class="post-content">
+                <h2>Portafolio de aprendizaje</h2>
+                <p class="materia">Herramientas de producción digital</p>
+                <p class="date">Publicado el 1 de diciembre de 2021</p>
+                <p>Consulta la presentación en este enlace: <a href="https://docs.google.com/presentation/d/149JUBXBJAaGFxbZf0dPpoucowrP0RnHG/edit?usp=sharing&ouid=105609484895609301693&rtpof=true&sd=true">Portafolio Digital</a></p>
+            </div>
+        </article>
+        
+        <article class="blog-post">
+            <div class="post-content">
+                <h2>Wireframes de la tienda</h2>
+                <p class="materia">Programación</p>
+                <p class="date">Publicado el 2 de noviembre de 2021</p>
+                <p>Consulta el documento en este enlace: <a href="https://drive.google.com/file/d/1hnimxdvfE0RdAOki1mfYq9fvWFLDZ72y/view?usp=sharing">Wireframes de la tienda</a></p>
+            </div>
+        </article>
+        
+        <article class="blog-post">
+            <div class="post-content">
+                <h2>Presentación del noviazgo</h2>
+                <p class="materia">Administración para la vida</p>
+                <p class="date">Publicado el 4 de abril de 2022</p>
+                <p>Aquí puedes consultar la presentación: <a href="https://docs.google.com/presentation/d/1ygqGJt-q0BUwp5TGlcFLn9pe5fRqcLqh/edit?usp=sharing&ouid=105609484895609301693&rtpof=true&sd=true">Como administrar el noviazgo</a></p>
+            </div>
+        </article>
+        
+        <article class="blog-post">
+            <div class="post-content">
+                <h2>Proyecto final</h2>
+                <p class="materia">Análisis y diseño de sistemas</p>
+                <p class="date">Publicado el 23 de Marzo de 2022</p>
+                <p>Aquí puedes consultar el documento: <a href="https://drive.google.com/file/d/1j23-kWbB5OJ7r4nWg9UNPRqoPB31DoFm/view?usp=sharing">Documento del proyecto final</a></p>
+            </div>
+        </article>
+        
+        <article class="blog-post">
+            <div class="post-content">
+                <h2>Presentación final: tienda virtual</h2>
+                <p class="materia">Análisis y diseño de sistemas</p>
+                <p class="date">Publicado el 8 de Mayo de 2022</p>
+                <p>Aquí puedes consultar el documento: <a href="https://docs.google.com/presentation/d/11sbkN-d-fCmiwMxOw1ASJVbaidHEtaIK/edit?usp=sharing&ouid=105609484895609301693&rtpof=true&sd=true" target="_blank">Presentación: tienda virtual</a></p>
+            </div>
+        </article>
+        
+        <article class="blog-post">
+            <div class="post-content">
+                <h2>Notiwa</h2>
+                <p class="materia">Comunicación</p>
+                <p class="date">Publicado el 9 de Mayo de 2022</p>
+                <p>Aquí puedes consultar el documento: <a href="https://drive.google.com/file/d/1b_lyArr9QHkhXl7sH0DqHCcvlvLUT62n/view?usp=sharing">Periódico digital: Notiwa</a></p>
+            </div>
+        </article>
+        
+        <article class="blog-post">
+            <div class="post-content">
+                <h2>Portafolio de diseño de personajes</h2>
+                <p class="materia">Dibujo e iluatración digital</p>
+                <p class="date">Publicado el 12 de Mayo de 2022</p>
+                <p>Aquí puedes consultar el documento: <a href="https://drive.google.com/file/d/17ZB1MpfzpIsh0q7OOexnjH5-G2T3DcGF/view?usp=sharing">Portafolio de diseño de personajes</a></p>
+            </div>
+        </article>
+        
+        <article class="blog-post">
+            <div class="post-content">
+                <h2>Tutoriales</h2>
+                <p class="materia">Sistemas operativos</p>
+                <p class="date">Publicado el 11 de abril de 2022</p>
+                <p>Aquí puedes consultar los tutoriales: 
+                  <a href="https://drive.google.com/file/d/1XDMjiaMw6qhj3SwefARWC5j_ny3bRDkm/view?usp=sharing"> Tutorial 1</a>
+                  <a href="https://drive.google.com/file/d/1Hlqdqn-xQF9jIK4Ueho8wcIcQDl2rsO0/view?usp=sharing"> Tutorial 2</a>
+                  <a href="https://drive.google.com/file/d/1Xg7RN_vn_3O4ODhgyKEzdooBZRnhuc3n/view?usp=sharing"> Tutorial 3</a>
+                  <a href="https://drive.google.com/file/d/1mRjmt5Dz6DLesTwKD5TMZH0YLxWr6k4t/view?usp=sharing"> Tutorial 4</a>
+                </p>
+            </div>
+        </article>
+        
+        <article class="blog-post">
+            <div class="post-content">
+                <h2>Proyecto de investigación</h2>
+                <p class="materia">Introducción a la investigación</p>
+                <p class="date">Publicado el 8 de noviembre de 2022</p>
+                <p>Aquí puedes consultar el documento: <a href=https://docs.google.com/presentation/d/1E3b4v2q1En99iAnW4Y2ILKBaRkRqrr6i/edit?usp=sharing&ouid=105609484895609301693&rtpof=true&sd=true">Proceso para desarrollar un proyecto animado</a></p>
+            </div>
+        </article>
+        
+        <article class="blog-post">
+            <div class="post-content">
+                <h2>Demo reel de animación</h2>
+                <p class="materia">Principios de animación</p>
+                <p class="date">Publicado el 2 de diciembre de 2022</p>
+                <p>Aquí puedes ver mi demo reel: </p>
+                <p>Consulta el video en este enlace: <a href="https://drive.google.com/file/d/1S0rpCeLTRk9GIN_wMu_HcKtBL8u58Qhp/view?usp=sharing">Demo reel</a></p>
+            </div>
+        </article>
+        
+        <article class="blog-post">
+            <div class="post-content">
+                <h2>Espada de She-ra</h2>
+                <p class="materia">Modelado 3d</p>
+                <p class="date">Publicado el 1 de marzo de 2023</p>
+                <p>Aquí puedes ver las imágenes: 
+                  <a href="https://drive.google.com/file/d/19SIVGldgZNGl3jUfUZtm5fNs5ltyK1Qc/view?usp=sharing">Espada 1</a>
+                  <a href="https://drive.google.com/file/d/1tN0cUwLmOA8Ygwpt8RIRXzw939sr_u9W/view?usp=sharing">Espada 2</a>
+                </p>
+            </div>
+        </article>
+        
+        <article class="blog-post">
+            <div class="post-content">
+                <h2>Juegos</h2>
+                <p class="materia">Desarrollo de software interactivo</p>
+                <p class="date">Publicado el 13 de mayo de 2023</p>
+                <p>Aquí puedes ver descargar los juegos: <a href="https://drive.google.com/drive/folders/12pf5488wbebwf-Q_GIo3sKugE84nxCKs?usp=sharing">Juegos</a></p>
+            </div>
+        </article>
+        
+        <article class="blog-post">
+            <div class="post-content">
+                <h2>Plática de salud</h2>
+                <p class="materia">DSS: Salud</p>
+                <p class="date">Publicado el 7 de noviembre de 2023</p>
+                <p>Aquí puedes ver la presentación y exposición: 
+                  <a href="https://drive.google.com/file/d/1SjI5ROQkeFSS9tn8Fw5GIHGrn_w5CamV/view?usp=sharing">Presentación proyecto final</a>
+                  <a href="https://drive.google.com/file/d/1x0VGr5a86fEIN6BzI5ASq21YumKPfz2d/view?usp=sharing">Exposición</a>
+                </p>
+            </div>
+        </article>
+        
+        <article class="blog-post">
+            <div class="post-content">
+                <h2>Exposición de descanso adecuado</h2>
+                <p class="materia">DSS: Salud</p>
+                <p class="date">Publicado el 2 de noviembre de 2023</p>
+                <p>Aquí puedes ver la presentación: <a href="https://drive.google.com/file/d/13B9YW-jOXpEqPAcdzhx2vuDlBrLzJK3D/view?usp=sharing">Presentación del descanso</a></p>
+            </div>
+        </article>
+        
+        <article class="blog-post">
+            <div class="post-content">
+                <h2>Paper de realidad virtual</h2>
+                <p class="materia">Realidad virtual</p>
+                <p class="date">Publicado el 2 de noviembre de 2023</p>
+                <p>Aquí puedes ver la presentación: <a href="https://drive.google.com/file/d/1KxaCucROlUpFTV6YGZzvXudOl0LXEa7L/view?usp=sharing" target="_blank">Paper VR</a></p>
+            </div>
+        </article>
+        
+        <article class="blog-post">
+            <div class="post-content">
+                <h2>Simulacro de boda</h2>
+                <p class="materia">Relaciones interpersonales</p>
+                <p class="date">Próximamente....</p>
+            </div>
+        </article>
+        
+        <article class="blog-post">
+            <div class="post-content">
+                <h2>Limpieza del servidor ISC</h2>
+                <p class="materia">Arquitectura de redes</p>
+                <p class="date">Próximamente....</p>
+            </div>
+        </article>
+        
+        <article class="blog-post">
+            <div class="post-content">
+                <h2>Proyecto final</h2>
+                <p class="materia">Ecuaciones diferenciales</p>
+                <p class="date">Próximamente....</p>
+            </div>
+        </article>
+        
+        <article class="blog-post">
+            <div class="post-content">
+                <h2>Tienda online</h2>
+                <p class="materia">Programación web y Base de datos</p>
+                <p class="date">Próximamente....</p>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2023 FALF</p>
+    </footer>
+    <script src="script.js" type="text/javascript">
+      const accordion = document.getElementsByClassName('container');
+
+      for (i=0; i<accordion.length; i++) {
+        accordion[i].addEventListener('click', function () {
+          this.classList.toggle('active')
+        })
+      }
+    </script>
+</body>
+</html>
